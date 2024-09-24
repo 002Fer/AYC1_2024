@@ -66,7 +66,7 @@ El flujo principal del programa comienza en la etiqueta _start, que contiene los
 ![Nombre del Documento](https://i.ibb.co/x2f3n6F/Captura-desde-2024-09-24-16-59-15.png)
 ![Nombre del Documento](https://i.ibb.co/Rbbcjqn/Captura-desde-2024-09-24-17-06-09.png)
 ![Nombre del Documento](https://i.ibb.co/j4PwF4H/Captura-desde-2024-09-24-17-07-25.png)
-##Pruebas
+## Pruebas
 
 ![Nombre del Documento](https://i.ibb.co/nkpcFQ3/Captura-desde-2024-09-24-17-09-52.png)
 ![Nombre del Documento](https://i.ibb.co/SJv4xJN/Captura-desde-2024-09-24-17-11-08.png)
