@@ -1,15 +1,10 @@
+# ACYE1_A_2S24_202001950
+
 # Manual Técnico
-## Proyecto: Calculadora con Funcionalidad de Memoria
+## PROYECTO NO. 2
 ## Arquitectura: ARM64
 # Fernando Misael Morales Ortiz
 ## 202001950
-
-
-## Descripcion
-
-El programa es una calculadora simple implementada en ensamblador ARM64 que permite al usuario realizar operaciones aritméticas básicas como suma, resta, multiplicación y división. También ofrece la opción de operar con memoria, es decir, permite realizar operaciones utilizando valores almacenados en memoria.
-
-El usuario interactúa con el programa a través de un menú de opciones, donde puede seleccionar la operación deseada. El programa convierte la entrada de usuario (en formato ASCII) en números enteros, realiza las operaciones solicitadas, y luego convierte los resultados en cadenas de texto para mostrarlos.
 
 ## Organización del Código
 ## .data (Segmento de Datos)
@@ -62,12 +57,10 @@ El flujo principal del programa comienza en la etiqueta _start, que contiene los
         El resultado de la operación se convierte de nuevo a una cadena ASCII usando la función itoa.
         Imprime el resultado en pantalla.
         Espera a que el usuario presione una tecla para continuar o finalizar el programa.
-<a href="https://imgbb.com/"><img src="https://i.ibb.co/SJv4xJN/Captura-desde-2024-09-24-17-11-08.png" alt="Captura-desde-2024-09-24-17-11-08" border="0"></a>
-![Nombre del Documento](https://i.ibb.co/x2f3n6F/Captura-desde-2024-09-24-16-59-15.png)
-![Nombre del Documento](https://i.ibb.co/Rbbcjqn/Captura-desde-2024-09-24-17-06-09.png)
-![Nombre del Documento](https://i.ibb.co/j4PwF4H/Captura-desde-2024-09-24-17-07-25.png)
-## Pruebas
 
-![Nombre del Documento](https://i.ibb.co/nkpcFQ3/Captura-desde-2024-09-24-17-09-52.png)
-![Nombre del Documento](https://i.ibb.co/SJv4xJN/Captura-desde-2024-09-24-17-11-08.png)
-![Nombre del Documento](https://i.ibb.co/LvyVpGh/Captura-desde-2024-09-24-17-12-28.png)
+
+# Manual Técnico
+## PROYECTO NO. 2
+## Arquitectura: ARM64
+# Fernando Misael Morales Ortiz
+## 202001950
