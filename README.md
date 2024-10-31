@@ -5,7 +5,13 @@
 ## Arquitectura: ARM64
 # Fernando Misael Morales Ortiz
 ## 202001950
-
+##
+## Descripcion
+la aplicación trata sobre hojas de cálculo realizadas en el lenguaje Ensamblador.
+Dicho software permitirá manejar datos numéricos por medio de diversas operaciones
+matemáticas y lógicas, operando sobre datos puntuales o rangos. Se interactuará con
+el programa a través de una interfaz de línea de comandos por la cual se instruirá al
+programa sobre las acciones que debe realizar
 ## Organización del Código
 ## .data (Segmento de Datos)
 
@@ -26,7 +32,7 @@ Convierte una cadena de caracteres (ASCII) que representa un número en formato 
     Gestiona números negativos.
     Utiliza multiplicadores para determinar el valor posicional de cada dígito.
 
-# itoa (Integer to ASCII)
+## itoa (Integer to ASCII)
 
 Convierte un número entero en su representación como cadena de caracteres ASCII.
 
@@ -36,31 +42,37 @@ Convierte un número entero en su representación como cadena de caracteres ASCI
 ## macros
 son secciones que sirven como funiones en este caso se usaron para poder hacer el pedido de una de las opciones del menu 
 
+## import_data/readCSV/openfile
+Esta seccion de codigo se encarga de poder cargar un archivo CSV que puede contener cualquier dato y las almacena en los registros para poder ir colocando cada dato en la columna y fila correspondiente
+
+## imprimirCeldas
+se encarga de poder imprimier el cuadro que simula la cuadrilla de exel mostrando las columnas y su identificacion ademas de las filas con su numeral correspondiente
+## verificarParametro
+es la parte central debido a que se encarga de poder ir verificando y leyendo cada parametro que el usuario esta ingresando para luego ir viendo a que etiqueta irse y ejecutar la funcion correspondiente
+## verificarComando
+en esta parte se va verificando que la plantilla no se sobrepase de los parametros planteados en el proyecto
+
+## verificarASTERISCO
+en esta parte se va verificando que al comando guardar le siga el asterisco para poder hacer el guardado del resultado de la operacion y poder almacenarla en alguna de las celdas de la plantilla 
+## palabra intermedia
+en esta parte se va verificando que en el comando diferencia que tipo es, si es para guardar, hacer alguna operacion, hacer una importacion etc.
+
+
+
 # _start (Punto de Entrada)
 
 El flujo principal del programa comienza en la etiqueta _start, que contiene los siguientes pasos:
+primero muestra en pantalla los datos personales por un momento hasta que se le de enter y luego:
 
-    Mostrar Encabezado y Menú Principal:
-        Limpia la pantalla con clear_screen.
-        Muestra el encabezado de la universidad y el menú de opciones.
-
-    Leer la Opción del Usuario:
-        Usa la macro read para obtener la opción del usuario desde el menú principal.
-        Dependiendo de la opción seleccionada, realiza una de las siguientes operaciones: suma, resta, multiplicación, división o salir del programa.
-
-    Operaciones Aritméticas:
-        El programa solicita dos operandos al usuario y los convierte a enteros usando la función atoi.
-        Ejecuta la operación seleccionada (suma, resta, multiplicación, división).
-        Si se selecciona división, verifica si el divisor es cero y, de ser así, muestra un mensaje de error.
-
-    Mostrar Resultados:
-        El resultado de la operación se convierte de nuevo a una cadena ASCII usando la función itoa.
-        Imprime el resultado en pantalla.
-        Espera a que el usuario presione una tecla para continuar o finalizar el programa.
+Va verificando el comando y dependiedo de ese hace una comparacion para ir a la etiqueta correspondiente y si no son iguales va buscando a la que le corresponde 
 
 
-# Manual Técnico
+# Manual De Usuario
 ## PROYECTO NO. 2
 ## Arquitectura: ARM64
 # Fernando Misael Morales Ortiz
 ## 202001950
+
+## Inicio del programa
+<img src="[Imagenes/LDR.jpeg" alt="LDR" width="300" height="200](https://i.ibb.co/0sv5HX6/Captura-desde-2024-10-30-23-46-43.png)">
+
