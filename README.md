@@ -75,3 +75,22 @@ Va verificando el comando y dependiedo de ese hace una comparacion para ir a la 
 
 ## Inicio del programa
 <img src="https://i.ibb.co/0sv5HX6/Captura-desde-2024-10-30-23-46-43.png">
+
+inicialmente muestra datos personales como el nombre de la universidad, facultad, curso, nombre y carnet
+
+
+## Cuadricula inicial
+<img src="https://i.ibb.co/NTjLKQq/Captura-desde-2024-10-30-23-57-58.png">
+aca muestra el tablero que inicialmente esta lleno de ceros que despues ira almacenando los valores que el usuario vaya digitando
+
+## Inicio del programa
+<img src="https://i.ibb.co/68dNGCN/Captura-desde-2024-10-31-00-00-29.png">
+aca muestra el area correspondiente para poder ingresar los comandos 
+
+## Ejemplo de comandos
+<img src="https://i.ibb.co/2dzPfQp/Captura-desde-2024-10-31-00-02-32.png">
+aca hay unos ejemplos de los comandos que se puede ingresar 
+
+## Ejemplo de el comando Guardar
+<img src="https://i.ibb.co/TMbY13D/Captura-desde-2024-10-31-00-04-21.png">
+aca hay unos ejemplos de como se ingresa un comando y que se va reflejando automaticamente en la plantilla
