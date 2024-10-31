@@ -74,5 +74,4 @@ Va verificando el comando y dependiedo de ese hace una comparacion para ir a la 
 ## 202001950
 
 ## Inicio del programa
-<img src="[Imagenes/LDR.jpeg" alt="LDR" width="300" height="200](https://i.ibb.co/0sv5HX6/Captura-desde-2024-10-30-23-46-43.png)">
-
+<img src="https://i.ibb.co/0sv5HX6/Captura-desde-2024-10-30-23-46-43.png">
